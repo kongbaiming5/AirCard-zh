@@ -32,7 +32,7 @@ AirCard 是一个 macOS 小工具：通过 `airlift`（AirTraffic 同步逃逸�
 
 ## 下载与安装
 
-1. 前往 [Releases](../../releases/latest) 下载 `AirCard-1.2.6-zh.dmg`。
+1. 前往 [Releases](https://github.com/kongbaiming5/AirCard-zh/releases/latest) 下载 `AirCard-1.2.6-zh.dmg`。
 2. 打开 DMG，把 **AirCard** 拖入「应用程序」。
 3. **首次启动**：由于是本地构建（临时签名），macOS 可能拦截。请：
    - 在「应用程序」中 **右键 AirCard → 打开 → 再次点「打开」**；或
@@ -57,7 +57,7 @@ AirCard 是一个 macOS 小工具：通过 `airlift`（AirTraffic 同步逃逸�
 **环境要求**：macOS 14+，Xcode Command Line Tools（`xcode-select --install`）。
 
 ```bash
-git clone https://github.com/<your-name>/AirCard-zh.git
+git clone https://github.com/kongbaiming5/AirCard-zh.git
 cd AirCard-zh
 ./build_zh.sh
 open build/AirCard.app        # 直接运行
